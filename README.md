@@ -1,8 +1,8 @@
 # Laravel Monitor
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-monitor/laravel-monitor.svg?style=flat-square)](https://packagist.org/packages/laravel-monitor/laravel-monitor)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/laravel-monitor/laravel-monitor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/laravel-monitor/laravel-monitor/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-monitor/laravel-monitor.svg?style=flat-square)](https://packagist.org/packages/laravel-monitor/laravel-monitor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-monitor-hue/laravel-monitor.svg?style=flat-square)](https://packagist.org/packages/laravel-monitor-hue/laravel-monitor)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/laravel-monitor-hue/laravel-monitor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/laravel-monitor-hue/laravel-monitor/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel-monitor-hue/laravel-monitor.svg?style=flat-square)](https://packagist.org/packages/laravel-monitor-hue/laravel-monitor)
 
 A Laravel package to send application health and deployment metadata to a centralized monitoring API. The package automatically sends non-sensitive telemetry when your Laravel application boots and can send periodic heartbeats.
 
