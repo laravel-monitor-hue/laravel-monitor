@@ -1,5 +1,5 @@
 {
-    "name": "mdmridul6/laravel-monitor",
+    "name": "laravel-monitor-hue/laravel-monitor",
     "description": "A Laravel package for monitoring application health and deployment metadata",
     "keywords": ["laravel", "monitoring", "health-check", "telemetry"],
     "license": "MIT",
