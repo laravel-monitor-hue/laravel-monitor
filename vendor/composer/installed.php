@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'laravel-monitor/laravel-monitor',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'mdmridul6/laravel-monitor',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -397,14 +397,16 @@
                 0 => '*',
             ),
         ),
-        'laravel-monitor/laravel-monitor' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'laravel-monitor-hue/laravel-monitor' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
+            'install_path' => __DIR__ . '/../laravel-monitor-hue/laravel-monitor',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => true,
         ),
         'laravel/framework' => array(
             'pretty_version' => 'v12.69.3',
@@ -511,6 +513,15 @@
             'reference' => '85d5c77c5d6d3af6c54db4a78246364908f3c928',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/uri-interfaces',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mdmridul6/laravel-monitor' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
