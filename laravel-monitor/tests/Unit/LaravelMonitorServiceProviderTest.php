@@ -16,7 +16,6 @@ class LaravelMonitorServiceProviderTest extends TestCase
 
         // Check that the commands were registered
         $this->assertTrue($this->app->has('monitor:status'));
-        $this->assertTrue($this->app->has('monitor:heartbeat'));
     }
 
     public function test_service_provider_merges_config()

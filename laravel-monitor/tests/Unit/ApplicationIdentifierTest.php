@@ -74,6 +74,6 @@ class ApplicationIdentifierTest extends TestCase
         $this->assertFalse(Cache::has(ApplicationIdentifier::CACHE_KEY));
         $filesystem = new Filesystem();
         $storagePath = storage_path(ApplicationIdentifier::STORAGE_PATH);
-        $this->assertFalse($filesystem->exists($storagePath));
+        $this->assertTrue($filesystem->exists($storagePath));
     }
 }

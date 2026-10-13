@@ -35,9 +35,18 @@ class SendHeartbeat implements ShouldQueue
      */
     public function handle()
     {
-        // Send the heartbeat
-        $monitor = app('monitor');
-        $monitor->sendHeartbeat();
+        try {
+            // Send the heartbeat
+            $monitor = app('monitor');
+            $monitor->sendHeartbeat();
+        } catch (\Exception $e) {
+            // Log the error but don't let it break the application
+            \Illuminate\Support\Facades\Log::error('Laravel Monitor: Heartbeat job failed permanently', [
+                'application_id' => ApplicationIdentifier::getId(),
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString(),
+            ]);
+        }
     }
 
     /**
