@@ -1373,69 +1373,6 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
-            "name": "laravel-monitor-hue/laravel-monitor",
-            "version": "dev-main",
-            "version_normalized": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel-monitor-hue/laravel-monitor.git",
-                "reference": "1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel-monitor-hue/laravel-monitor/zipball/1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4",
-                "reference": "1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.0",
-                "illuminate/http": "^11.0|^12.0",
-                "illuminate/support": "^11.0|^12.0",
-                "php": "^8.2"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.6",
-                "orchestra/testbench": "^9.0|^10.0",
-                "phpunit/phpunit": "^11.0"
-            },
-            "time": "2026-10-13T00:17:08+00:00",
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "LaravelMonitor\\LaravelMonitorServiceProvider"
-                    ]
-                },
-                "allow-plugins": {
-                    "pestphp/pest-plugin": true
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "LaravelMonitor\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Laravel Application Monitoring Package — sends non-sensitive health metadata to a centralized monitoring API.",
-            "keywords": [
-                "health-check",
-                "heartbeat",
-                "laravel",
-                "monitoring",
-                "telemetry"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel-monitor-hue/laravel-monitor/issues",
-                "source": "https://github.com/laravel-monitor-hue/laravel-monitor/tree/main"
-            },
-            "install-path": "../laravel-monitor-hue/laravel-monitor"
-        },
-        {
             "name": "laravel/framework",
             "version": "v12.69.3",
             "version_normalized": "12.69.3.0",
@@ -9163,7 +9100,6 @@
         "fakerphp/faker",
         "filp/whoops",
         "hamcrest/hamcrest-php",
-        "laravel-monitor-hue/laravel-monitor",
         "laravel/pail",
         "laravel/tinker",
         "mockery/mockery",

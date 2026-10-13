@@ -3,7 +3,7 @@
         'name' => 'mdmridul6/laravel-monitor',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4',
+        'reference' => 'a60c5f0b7f6606b087084133f38c85937ca308fa',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -397,17 +397,6 @@
                 0 => '*',
             ),
         ),
-        'laravel-monitor-hue/laravel-monitor' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../laravel-monitor-hue/laravel-monitor',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'dev_requirement' => true,
-        ),
         'laravel/framework' => array(
             'pretty_version' => 'v12.69.3',
             'version' => '12.69.3.0',
@@ -519,7 +508,7 @@
         'mdmridul6/laravel-monitor' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '1e5e1bc82f8fcb8397bd7dac56232b88a820e1b4',
+            'reference' => 'a60c5f0b7f6606b087084133f38c85937ca308fa',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
